@@ -86,3 +86,20 @@ ul {
     }
   }
 }
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background-color: #333;
+  padding: 10px;
+}
+.navbar button {
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.navbar button:hover {
+  background-color: #ddd;
+}
