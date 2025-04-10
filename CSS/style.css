@@ -12,6 +12,7 @@ h1 {
   text-align: center;
   animation: pulse 2.5s infinite;
   font-size: 3em;
+  background: #e28b35;
 }
   #section1 {
     display: flex;
