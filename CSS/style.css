@@ -13,11 +13,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-H1 {
-  background-color: rgb(160, 108, 29);
-}
-
 main {
+  > h1 {
+    background-color: rgb(160, 108, 29);
+    text-align: center;
+    animation: pulse 2.5s infinite;
+    font-size: 3em;
+  }
   .section1 {
     display: flex;
     justify-content: space-between;
@@ -28,11 +30,6 @@ main {
       align-items: center;
       margin: 50px;
 
-      h1 {
-        text-align: center;
-        animation: pulse 2.5s infinite;
-        font-size: 3em;
-      }
       p {
         font-size: 1em;
       }
@@ -51,6 +48,8 @@ main {
   /* projects */
   .project-section {
     padding: 4rem;
+    font-family: "Poppins", sans-serif;
+    background-color: #060e09;
 
     .project-section__container {
       max-width: 1200px;
